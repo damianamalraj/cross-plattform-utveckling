@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* border: dashed 1px #282c34; */
 }
 
 .App-logo {
@@ -22,17 +24,4 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
